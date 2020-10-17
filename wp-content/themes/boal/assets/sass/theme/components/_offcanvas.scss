@@ -1,0 +1,11 @@
+
+/* ================== Canvas Menu ===================== */
+body{
+    overflow-x: hidden;
+}
+
+@media (max-width: $screen-sm-max) {
+    .slicknav_btn{
+        display: block !important;
+    }
+}

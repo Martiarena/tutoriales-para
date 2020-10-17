@@ -1,0 +1,200 @@
+.form-control{
+    background: #fff;
+    border: 1px solid #E5E6E1;
+    box-shadow: none;
+    &:focus{
+        background: #fff;
+        border: 1px solid #E5E6E1;
+        box-shadow: none;
+    }
+}
+.input-group{
+    input,.form-control{
+        height: 36px;
+    }
+    .btn{
+        padding: 7px 17px;
+    }
+}
+
+.btn:focus, .btn.focus, .btn:active:focus, .btn.focus:active, .btn.active:focus, .btn.active.focus{
+    outline: none;
+}
+.form-control::-moz-placeholder{
+    font-weight: 300;
+    color: #ccc;
+}
+.wpcf7-form{
+    .wpcf7-form-control-wrap{
+        margin-bottom: 10px;
+        position: relative;
+        display: block;
+    }
+    .form-control{
+        background:white;
+        border-radius: 3px;
+    }
+}
+//tabs
+.nav-tabs{
+    border: none;
+    > li{
+        @include rtl-float-left();
+        @include rtl-padding-right(15px);
+        > a{
+            padding:10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 0;
+            &:hover{
+                background: transparent;
+            }
+        }
+
+        &.active{
+            > a{
+                color: $theme-color;
+                &,
+                &:hover,
+                &:focus {
+                    background: none;
+                    color:$theme-color;
+                    border: none;
+                    border-bottom-color: transparent;
+                    cursor: default;
+                }
+            }
+        }
+    }
+}
+
+//search
+.header-content-right .boal-hidden{
+    opacity: 0;
+    visibility: hidden;
+    @include transition(1s);
+    .searchform,.woocommerce-product-search{
+        opacity: 0;
+        padding: 50px !important;
+        @include translateY(-35%);
+        @include transition-transform(0.5s);
+    }
+    .btn-mini-close{
+        opacity: 0;
+        @include transition(0.4s);
+    }
+}
+.searchform-mini.searchform-moblie{
+    position: absolute;
+    top:50%;
+    right:0px;
+}
+
+.searchform-mini{
+    padding-top:5px;
+    @include rtl-padding-left(50px);
+    cursor: pointer;
+    position: relative;
+}
+
+.widget_search{
+    .btn-primary{
+        background:$theme-color;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 0;
+        color: #fff;
+        font-size: 14px;
+        height: 36px;
+    }
+}
+.btn-mini-search{
+    border: none;
+    box-shadow: none;
+    line-height: 26px;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 16px;
+    z-index: 99;
+    position: relative;
+    color: $menu-color ;
+    &:hover{
+        color: $theme-color;
+        background: none;
+    }
+}
+.search-transition-wrap{
+    opacity: 1;
+    visibility: visible;
+    background: rgba(20, 22, 24, 0.95);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100% !important;
+    @include transition(0.1s);
+    z-index: 99999;
+    .search-transition-inner{
+        padding: 0 25%;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 100%;
+        border: none !important;
+    }
+    .searchform,.woocommerce-product-search{
+        opacity: 1;
+        padding: 50px !important;
+        @include translateY(0%);
+        @include transition-transform(0.5s);
+        .form-control{
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: #FFF;
+            height: 50px;
+            padding: 0;
+        }
+        .input-group{
+            border-bottom: 1px solid #fff;
+            padding: 0 !important;
+        }
+        .btn{
+            background: none;
+            font-size: 16px;
+            padding: 0 15px;
+        }
+    }
+    .btn-mini-close{
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        border: medium none;
+        color: #fff !important;
+        font-size: 18px;
+        position: absolute;
+        top:-10px;
+        @include rtl-right(25%);
+        @include rtl-margin-right(50px);
+        opacity: 1;
+        @include transition(0.4s);
+        *{
+            color: #fff !important;
+        }
+    }
+
+}
+.widget_search .form-control{
+    background: $theme-bg;
+}
+.widget_search{
+    .widgettitle{
+        padding-top: 0;
+    }
+}
+.sidebar .widget_search{
+    .widgettitle{
+        padding-top: 0;
+    }
+}

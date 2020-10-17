@@ -1,0 +1,303 @@
+//Style Slider
+// Slider ================================================= Slider =====================================================
+
+.sliders-column1{
+    margin:20px 0;
+    .post-image{
+        height: 550px;
+    }
+    .post-tran {
+        .entry-title{
+            font-size: 30px;
+            line-height: 30px;
+        }
+        .entry-content{
+            max-width: 70%;
+            padding-bottom: 10px;
+        }
+    }
+    .post-item{
+        margin-bottom: 0;
+    }
+}
+
+.sliders-column3{
+    margin:20px -7.5px 5px;
+    position: relative;
+    .box-large{
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+        .article-content{
+            bottom: 30px;
+            left: 30px;
+        }
+        .post-image{
+            height: 525px;
+        }
+        .post-tran .entry-title{
+            font-size: 22px;
+            line-height: 26px;
+            font-weight: 600;
+        }
+        .entry-content{
+            max-width: 90%;
+        }
+    }
+    .box-small{
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+        .post-image{
+            height: 255px;
+        }
+        .post-tran .entry-title{
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 0;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+    .post-tran .entry-title{
+        margin-top: 10px;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    .entry-title{
+        padding-top: 0;
+    }
+    .post-item{
+        margin-bottom: 15px;
+    }
+    .article-meta a,.article-meta .fa,.article-meta{
+        color: #fff;
+    }
+
+}
+
+.sliders-column4{
+    margin:20px -7.5px 5px;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    .article-content{
+        bottom: 30px;
+        left: 30px;
+    }
+    .article-item{
+        padding:0 7.5px;
+    }
+    .post-tran .post-image{
+        height: 470px;
+    }
+    .post-tran .entry-title{
+        margin-top: 5px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        padding: 0;
+    }
+    .entry-content{
+        max-width: 90%;
+    }
+    .entry-title{
+        padding-top: 0;
+    }
+    .post-item{
+        margin-bottom: 15px;
+    }
+    .article-meta a,.article-meta .fa,.article-meta{
+        color: #fff;
+    }
+    .slick-slider{
+        .entry-title{
+            font-size: 32px;
+            letter-spacing: 1px;
+            line-height: 36px;
+            margin-top: 0;
+        }
+    }
+}
+
+.sliders-column4b{
+    margin:20px -7.5px 5px;
+    .archive-blog{
+        margin: 0 -10px;
+    }
+    .post-tran .post-image{
+        height: 280px;
+    }
+    .slider-vertical{
+        .post-image{
+            height: 575px;
+        }
+        .entry-title{
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    .article-item{
+        padding:0 7.5px;
+    }
+    .post-tran .entry-title{
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 22px;
+        font-size: 18px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+    }
+    .post-item{
+        margin-bottom: 15px;
+    }
+}
+
+.sliders-column5a{
+    margin:20px -7.5px 5px;
+    .archive-blog{
+        margin: 0 -10px;
+    }
+    .post-tran .post-image{
+        height: 280px;
+    }
+    .article-item{
+        padding:0 5px;
+    }
+    .post-tran .entry-title{
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 22px;
+        font-size: 18px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+    }
+    .post-item{
+        margin-bottom: 15px;
+    }
+}
+
+.slider-sidebar{
+    margin-top: 20px;
+    .article-image{
+        width: 43%;
+        @include rtl-float-left();
+    }
+    .article-content{
+        @include rtl-float-left();
+        width: 57%;
+        @include rtl-padding-left(15px);
+    }
+    &:hover{
+        cursor: pointer;
+        .entry-title{
+            color: $theme-color;
+        }
+    }
+    .entry-title:hover{
+        color: $theme-color;
+        cursor: pointer;
+    }
+    .entry-title{
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        font-family:$font-family-once;
+    }
+    .byline{
+        display: none;
+    }
+}
+
+.box-slider{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    .box-large .post-item{
+        margin-bottom: 0;
+        position: absolute;
+        top:0
+    }
+    .widgettitle{
+        padding: 0px 30px 30px;
+        border: none;
+        color: $theme-color;
+        &:after{
+            content: none;
+        }
+    }
+    .box-nav .post-item{
+        @include rtl-padding-left(30px);
+        padding-bottom: 30px;
+        &:last-child{
+            padding-bottom: 0;
+        }
+    }
+}
+
+
+//loading
+span.post-loading {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-left: 4px solid $theme-color;
+    border-radius: 100%;
+    display: block;
+    height: 100px;
+    margin: auto auto 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:40%;
+    width: 100px;
+}
+.post-loading:before,.loading:before {
+    content: '';
+    width: 50%;
+    height: 50%;
+    background: transparent;
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    top: 3px;
+    left: -1px;
+    z-index: 999;
+    box-shadow: none;
+}
+.loading,.post-loading {
+    font-size: 10px;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    background: #eeeeee;
+    background: -moz-linear-gradient(left, #eeeeee 10%, rgba(255, 255, 255, 0) 42%);
+    background: -webkit-linear-gradient(left, #eeeeee 10%, rgba(255, 255, 255, 0) 42%);
+    background: -o-linear-gradient(left, #eeeeee 10%, rgba(255, 255, 255, 0) 42%);
+    background: -ms-linear-gradient(left, #eeeeee 10%, rgba(255, 255, 255, 0) 42%);
+    background: linear-gradient(to right, #eeeeee 10%, rgba(255, 255, 255, 0) 42%);
+    position: relative;
+    -webkit-animation: load3 0.86s infinite linear;
+    animation: load3 0.86s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 999;
+    box-shadow: none;
+}
+@-webkit-keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+

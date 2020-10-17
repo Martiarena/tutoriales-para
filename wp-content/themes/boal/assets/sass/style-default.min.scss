@@ -1,0 +1,46 @@
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+@import "variables-theme";
+@import "variables";
+@import "theme/mixins/rtl";
+@import "bootstrap/mixins";
+
+@import "theme/mixins/mixins";
+@import "theme/mixins/affect";
+@import "theme/mixins/buttons";
+
+@import "theme/common/add-class";
+@import "theme/common/global";
+@import "theme/common/font";
+
+@import "theme/components/buttons";
+@import "theme/components/forms";
+@import "theme/components/carousel";
+@import "theme/components/menu";
+@import "theme/components/offcanvas";
+@import "theme/components/social";
+@import "theme/components/element-woo";
+
+@import "theme/layouts/header";
+@import "theme/layouts/sidebar";
+@import "theme/layouts/footer";
+@import "theme/layouts/pages";
+@import "theme/layouts/home";
+@import "theme/layouts/widget";
+@import "theme/layouts/slider";
+
+@import "theme/widget/newsletter";
+@import "theme/widget/social";
+@import "theme/widget/about";
+@import "theme/widget/twitter";
+@import "theme/widget/tabs-post";
+@import "theme/widget/product";
+
+@import "theme/products/product";
+@import "theme/products/category";
+@import "theme/products/detail";
+
+@import "theme/blog/category";
+@import "theme/blog/single";
+@import "theme/blog/layout-posts";
+
+@import "responsive";

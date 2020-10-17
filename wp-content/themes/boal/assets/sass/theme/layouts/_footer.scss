@@ -1,0 +1,228 @@
+//Style Footer
+.scrollup {
+    border-radius: 100%;
+    color: #151515 !important;
+    cursor: pointer;
+    font-size: 30px;
+    height: 50px;
+    left: 0;
+    margin: auto;
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    top: -30px;
+    width: 50px;
+    z-index: 999;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    line-height: 46px;
+    &:hover{
+        background: $theme-color;
+        color: #FFF !important;
+    }
+}
+
+//When elements html in the footer
+#na-footer{
+    font-weight: 400;
+    background:$footer-bg;
+    color:$footer-color ;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+
+    //tag html =========================================================================================================
+    ul{
+        padding: 0;
+        list-style: none;
+        ul {
+            padding-top: 10px;
+            @include rtl-padding-left(20px);
+        }
+        li{
+            color:$footer-color ;
+            line-height: 30px;
+            &:last-child{
+                border-bottom:none;
+            }
+            b{
+                font-weight: bold;
+                color:#ededed;
+            }
+            a{
+                color:$footer-color;
+                &:hover{
+                    color:$coppy-right-color-link;
+                }
+            }
+        }
+    }
+    select{
+        color: $footer-color ;
+        width: 100%;
+    }
+    b, strong,.wp-caption .wp-caption-text, .entry-caption, .gallery-caption{
+        color: $white;
+    }
+    p{
+        margin-bottom: 15px;
+    }
+
+    // Elements ========================================================================================================
+    .widgettitle{
+        font-size: 18px;
+        margin: 30px 0 20px;
+        padding:10px 0px;
+        color: $footer-title-color;
+        text-transform: capitalize;
+        border-color:transparent;
+    }
+    .newsletters{
+        @include rtl-text-align-left();
+        color:$footer-color ;
+        padding-top: 0;
+        .group-input-newsletter{
+            width: 320px;
+            padding-top: 20px;
+        }
+        #mc4wp{
+            min-width:auto;
+        }
+        .input,.form-control{
+            height: 40px !important;
+            &:focus,&:active{
+                border-color: #ebebeb;
+            }
+        }
+        .btn-newsletter{
+            font-size: 12px;
+            height: 40px !important;
+        }
+    }
+    .tagcloud{
+        padding-top: 10px;
+    }
+    .tagcloud a{
+        color: #a2a2a2;
+        &:hover{
+            border-color: #fff;
+            color:#fff;
+        }
+    }
+    .boal-social-icon{
+        text-align: right;
+        a{
+            border-radius: 0;
+            border: none;
+            color: #767676;
+            font-size: 14px;
+            &.ion-social-facebook:hover{
+                color:#3b5998 ;
+            }
+            &.ion-social-twitter:hover{
+                color:#00aced ;
+            }
+            &.ion-social-googleplus:hover{
+                color:#dd4b39 ;
+            }
+            &.ion-social-linkedin:hover{
+                color:#BD081C ;
+            }
+            &.ion-social-pinterest:hover{
+                color:#3b5998 ;
+            }
+            &.ion-social-instagram:hover{
+                color:#D13FAE ;
+            }
+            &.ion-social-pinterest:hover{
+                color: #cb2027;
+            }
+
+            &.ion-social-skype:hover{
+                color: #0078ca;
+            }
+
+            &.ion-social-vimeo:hover{
+                color: #aad450;
+            }
+            &.ion-social-youtube:hover{
+                color: #bb0000;
+            }
+
+            &.ion-social-dribbble:hover{
+                color: #ea4c89;
+            }
+
+            &.ion-social-linkedin:hover{
+                color: #007bb6;
+            }
+
+            &.ion-social-rss:hover{
+                color: #FF9900;
+            }
+        }
+    }
+    .boal-image-content{
+        padding: 100px 0 50px;
+    }
+    .fa-heart{
+        color: $theme-color;
+    }
+
+    // Layout
+    // Footer Top ======================================================================================================
+    .footer-top{
+        padding-top: 60px;
+        .footer-top-inner{
+            padding-bottom: 40px;
+            border-bottom: 1px solid #434348;
+        }
+        .widget_contact_info{
+            .widgettitle{
+                display: none;
+            }
+            .about-image{
+                max-width: 120px;
+                @include rtl-float-left();
+            }
+            .description{
+                font-size: 16px;
+                color: #ededed;
+                width: 68%;
+                @include rtl-padding-left(90px);
+                @include rtl-float-left();
+            }
+            .contact-info{
+                width: 20%;
+                @include rtl-float-right();
+            }
+        }
+    }
+
+    // Footer Center ===================================================================================================
+    .footer-center {
+        position: relative;
+        padding: 15px 0 60px;
+    }
+    // Footer Bottom ===================================================================================================
+    .footer-bottom {
+        background: $footer-bg-bottom;
+        padding: 30px 0;
+        font-size: 14px;
+        line-height: 30px;
+        .coppy-right {
+            text-align: left;
+            a {
+                color:$footer-title-color;
+                font-weight: 500;
+                &:hover{
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+}
+

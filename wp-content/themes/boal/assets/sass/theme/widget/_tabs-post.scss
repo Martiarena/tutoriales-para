@@ -1,0 +1,84 @@
+//style widget Tabs post
+.sidebar .widget_tabs_post{
+
+    .widget-title{
+        border: none;
+        display: table;
+        width: 100%;
+        border-bottom: 1px solid #ecede7;
+        margin-bottom: 20px;
+        padding-top: 0px;
+        li{
+            border:none;
+            float: none;
+            padding: 0;
+            display: table-cell;
+            &.active a{
+
+                &:hover, &:focus,&:active{
+                    color:  $theme-color;
+                }
+                &:after {
+                    background:$theme-color none repeat scroll 0 0;
+                    bottom: -1px;
+                    content: "";
+                    height: 2px;
+                    left: 0;
+                    position: absolute;
+                    width: 100%;
+                }
+            }
+            a{
+                position: relative;
+                color: #2f2f33;
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 500;
+                margin: 0;
+                padding:0px 0px 5px;
+                text-transform: capitalize;
+                &:hover, &:focus,&:active{
+                    color: $theme-color;
+                }
+            }
+
+            &:first-child a{
+                @include rtl-padding-left(0);
+            }
+            &:last-child a{
+                @include rtl-padding-right(0);
+            }
+            &:last-child{
+                @include rtl-text-align-right();
+            }
+        }
+    }
+    article{
+        &:first-child{
+            padding-top: 0;
+        }
+    }
+    .entry-header{
+        padding: 0;
+    }
+    .byline{
+        display: none;
+    }
+    .article-content .entry-meta-right{
+        @include rtl-float-left();
+        .text-comment{
+            color: #757575;
+        }
+    }
+    .total-view{
+        padding:0;
+    }
+    .entry-title > a {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+}
+.ti-comment{
+    @include rtl-padding-right(2px);
+}

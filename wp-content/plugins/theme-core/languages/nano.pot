@@ -1,0 +1,403 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-31 03:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: html/shortcode-blog.php:159
+msgid "... Load More ..."
+msgstr ""
+
+#: html/shortcode-blog.php:173
+msgid ".... Load More ...."
+msgstr ""
+
+#: inc/custom-attribute/custom-attribute.php:45
+msgid "Color Picker"
+msgstr ""
+
+#: inc/custom-attribute/custom-attribute.php:46
+#: inc/custom-attribute/templates/admin/add/pa-image.php:14
+#: inc/custom-attribute/templates/admin/edit/pa-image.php:18
+msgid "Image"
+msgstr ""
+
+#: inc/custom-attribute/custom-attribute.php:47
+#: inc/custom-attribute/templates/admin/add/pa-label.php:14
+#: inc/custom-attribute/templates/admin/edit/pa-label.php:16
+msgid "Label"
+msgstr ""
+
+#: inc/custom-attribute/custom-attribute.php:191
+msgid "Select terms"
+msgstr ""
+
+#: inc/custom-attribute/custom-attribute.php:207
+msgid "Select all"
+msgstr ""
+
+#: inc/custom-attribute/custom-attribute.php:208
+msgid "Select none"
+msgstr ""
+
+#: inc/custom-attribute/custom-attribute.php:209
+msgid "Add new"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:28
+msgid "Page Options"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:36
+msgid "Hidden Title"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:42
+msgid "Header Style"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:46
+msgid "Use Global"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:47
+msgid "Header Simple"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:48
+msgid "Header Left"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:49
+msgid "Header Center"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:60
+msgid "Banner Options"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:65
+msgid "Banner Url"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:66
+msgid "When click into banner, it will be redirect to this url"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:71
+msgid "Banner class"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:81
+msgid "Member Options"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:86
+msgid "Member Image"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:93
+msgid "Member Position"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:100
+msgid "Link Facebook"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:107
+msgid "Link Twitter"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:114
+msgid "Link Instagram"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:121
+msgid "Link Goolge +"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:133
+msgid "Testimonial Options"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:138
+msgid "Image User"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:143
+msgid "Position"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:154
+msgid "Image Deal Options"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:161
+msgid "Featured Image For The Deal"
+msgstr ""
+
+#: inc/meta-box/meta-boxes.php:162
+msgid ""
+"The image that will be used as the background , you should use file.png, "
+"default size: height=980px,width:246px"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:36
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:37
+msgid "Featured Posts"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:38
+msgid "Most Viewed"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:41
+msgid "NA Blog Content"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:43 inc/shortcode/na_blogs_featured.php:32
+#: inc/shortcode/na_blogs_top.php:31
+msgid "NA"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:48 inc/shortcode/na_blogs_featured.php:37
+#: inc/shortcode/na_blogs_top.php:36
+msgid "Title"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:54 inc/shortcode/na_blogs_featured.php:85
+msgid "Layout a post"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:61 inc/shortcode/na_blog.php:92
+#: inc/shortcode/na_blog.php:131
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:69
+msgid "Adsense size"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:75
+msgid "Adsense Settings"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:83
+msgid "Columns"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:87
+msgid "1"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:88
+msgid "2"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:89
+msgid "3"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:90
+msgid "4"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:97 inc/shortcode/na_blogs_featured.php:54
+#: inc/shortcode/na_blogs_top.php:68
+msgid "Category IDs"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:98 inc/shortcode/na_blogs_featured.php:55
+#: inc/shortcode/na_blogs_top.php:69
+msgid "Select category"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:104 inc/shortcode/na_blogs_featured.php:73
+#: inc/shortcode/na_blogs_top.php:75
+msgid "Posts Count"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:124
+msgid "Pagination "
+msgstr ""
+
+#: inc/shortcode/na_blog.php:127
+msgid "Pagination"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:128
+msgid "Load more button"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:129
+msgid "Lazy Loading"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:137
+msgid "Show Filter"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:140
+msgid "Yes"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:141 inc/shortcode/na_blog.php:153
+#: inc/shortcode/na_blog.php:163
+msgid "Filter Settings"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:146
+msgid "Type Filters "
+msgstr ""
+
+#: inc/shortcode/na_blog.php:150
+msgid "Category Filters "
+msgstr ""
+
+#: inc/shortcode/na_blog.php:151
+msgid "Post Filters"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:159
+msgid "Type post"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:161
+msgid "Control teasers look. Enable blocks and place them in desired order."
+msgstr ""
+
+#: inc/shortcode/na_blog.php:170 inc/shortcode/na_blogs_featured.php:97
+#: inc/shortcode/na_blogs_top.php:81
+msgid "Extra class name"
+msgstr ""
+
+#: inc/shortcode/na_blog.php:172 inc/shortcode/na_blogs_featured.php:99
+#: inc/shortcode/na_blogs_top.php:83
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: inc/shortcode/na_blogs_featured.php:30
+msgid "NA Featured Posts"
+msgstr ""
+
+#: inc/shortcode/na_blogs_featured.php:43 inc/shortcode/na_blogs_top.php:57
+msgid "Type Post"
+msgstr ""
+
+#: inc/shortcode/na_blogs_featured.php:46
+msgid "Most Views"
+msgstr ""
+
+#: inc/shortcode/na_blogs_featured.php:47 inc/shortcode/na_blogs_top.php:61
+msgid "Featured"
+msgstr ""
+
+#: inc/shortcode/na_blogs_featured.php:50 inc/shortcode/na_blogs_top.php:64
+msgid "The criteria you want to show"
+msgstr ""
+
+#: inc/shortcode/na_blogs_featured.php:61
+msgid "Layout section the post"
+msgstr ""
+
+#: inc/shortcode/na_blogs_featured.php:79
+msgid "Posts show in a row"
+msgstr ""
+
+#: inc/shortcode/na_blogs_top.php:29
+msgid "NA Slider"
+msgstr ""
+
+#: inc/shortcode/na_blogs_top.php:42
+msgid "Layout type"
+msgstr ""
+
+#: inc/shortcode/na_blogs_top.php:53
+msgid "Select layout type for display post"
+msgstr ""
+
+#: inc/shortcode/na_blogs_top.php:60
+msgid "News"
+msgstr ""
+
+#: inc/custom-attribute/templates/admin/add/pa-colorpicker.php:18
+#: inc/custom-attribute/templates/admin/edit/pa-colorpicker.php:19
+msgid "Color"
+msgstr ""
+
+#: inc/custom-attribute/templates/admin/add/pa-colorpicker.php:20
+#: inc/custom-attribute/templates/admin/edit/pa-colorpicker.php:22
+msgid "Please pick a color"
+msgstr ""
+
+#: inc/custom-attribute/templates/admin/add/pa-image.php:16
+#: inc/custom-attribute/templates/admin/edit/pa-image.php:23
+msgid "Image type"
+msgstr ""
+
+#: inc/custom-attribute/templates/admin/add/pa-image.php:19
+#: inc/custom-attribute/templates/admin/edit/pa-image.php:26
+msgid "Click to select an existing image or upload a new images"
+msgstr ""
+
+#: inc/custom-attribute/templates/admin/add/pa-image.php:19
+#: inc/custom-attribute/templates/admin/edit/pa-image.php:26
+msgid "Upload/Add Image"
+msgstr ""
+
+#: inc/custom-attribute/templates/admin/add/pa-image.php:20
+#: inc/custom-attribute/templates/admin/edit/pa-image.php:27
+msgid "Remove image selected"
+msgstr ""
+
+#: inc/custom-attribute/templates/admin/add/pa-image.php:20
+#: inc/custom-attribute/templates/admin/edit/pa-image.php:27
+msgid "Remove"
+msgstr ""
+
+#: inc/custom-attribute/templates/admin/add/pa-image.php:23
+msgid "Select your image"
+msgstr ""
+
+#: inc/custom-attribute/templates/admin/add/pa-image.php:44
+#: inc/custom-attribute/templates/admin/edit/pa-image.php:53
+msgid "Select or upload image"
+msgstr ""
+
+#: inc/custom-attribute/templates/admin/add/pa-image.php:49
+#: inc/custom-attribute/templates/admin/edit/pa-image.php:58
+msgid "Select"
+msgstr ""
+
+#. Name of the plugin
+msgid "Nano Core Plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This is not just a plugin, it is a package with many tools a website needed."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.nanoagency.co"
+msgstr ""
+
+#. Author of the plugin
+msgid "nanoagency"
+msgstr ""

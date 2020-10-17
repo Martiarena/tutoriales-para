@@ -1,0 +1,58 @@
+//style carousel
+.slick-prev,
+.slick-next{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    cursor: pointer;
+    color:#fff;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius:0;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    z-index: 99;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.13);
+    @include transition(0.4s);
+    opacity: 0;
+    &:before{
+        color:#fff;
+
+    }
+    &:hover,&:active{
+        background: $theme-color;
+        color:#FFF;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+        @include transition(0.4s);
+        opacity: 1;
+        &:before{
+            color:#FFF;
+        }
+    }
+}
+.article-carousel:hover{
+    .slick-prev,
+    .slick-next{
+        opacity: 1;
+    }
+}
+.product-carousel:hover{
+    .slick-prev,
+    .slick-next{
+        opacity: 1;
+    }
+}
+.box-slider {
+    .slick-prev{
+        @include rtl-left(15px);
+    }
+    .slick-slider{
+        &:hover {
+            .slick-prev,
+            .slick-next{
+                opacity: 1;
+            }
+        }
+    }
+}

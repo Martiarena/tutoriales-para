@@ -1,0 +1,172 @@
+[class*="ion-social-"]{
+    @include size(30px,30px);
+    background:transparent;
+    color: #7d7d7d;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 30px;
+    @include rtl-margin-left(5px);
+    text-align: center;
+    @include transition(0.4s);
+    border-radius: 100%;
+}
+
+.boal_social{
+    .ion-social-facebook{
+        &:hover{
+            color: #3b5998;
+        }
+    }
+
+    .ion-social-googleplus{
+        &:hover{
+            color: #dd4b39;
+        }
+    }
+
+    .ion-social-twitter{
+        &:hover{
+            color: #00aced;
+        }
+    }
+
+    .ion-social-instagram{
+        &:hover{
+            color: #517fa4;
+        }
+    }
+
+    .ion-social-pinterest{
+        &:hover{
+            color: #cb2027;
+        }
+    }
+
+    .ion-social-skype{
+        &:hover{
+            color: #0078ca;
+        }
+    }
+
+    .ion-social-vimeo{
+        &:hover{
+            color: #aad450;
+        }
+    }
+    .ion-social-youtube{
+        &:hover{
+            color: #bb0000;
+        }
+    }
+
+    .ion-social-dribbble{
+        &:hover{
+            color: #ea4c89;
+        }
+    }
+
+    .ion-social-linkedin{
+        &:hover{
+            color: #007bb6;
+        }
+    }
+
+    .ion-social-rss{
+        &:hover{
+            color: #FF9900;
+        }
+    }
+}
+
+.sidebar .widget_apsc_widget{
+    .apsc-each-profile{
+        padding:10px 10px 0px;
+        width: 50%;
+        @include rtl-float-left();
+    }
+    .apsc-icons-wrapper{
+        padding-top: 10px;
+        margin: 0 -10px;
+    }
+
+    .social-icon {
+        vertical-align: middle;
+
+        .fa{
+            font-size: 14px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            @include rtl-margin-right(15px);
+            border-right: 1px solid  rgba(255, 255, 255, 0.1);
+        }
+        .media-name{
+            display: none;
+            color: #FFF;
+            font-size: 14px;
+            text-transform: uppercase;
+
+        }
+    }
+    .apsc-count{
+        height: 40px;
+        @include rtl-text-align-left();
+        @include rtl-margin-right(5px);
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .apsc-media-type{
+        line-height: 40px;
+        font-size: 13px;
+    }
+    .apsc-inner-block{
+        color: $white;
+        border-radius: 4px;
+    }
+
+    .apsc-facebook-icon .apsc-inner-block {
+        background: #5B7DC4;
+    }
+
+    .apsc-google-plus-icon .apsc-inner-block {
+        background: #dd4b39;
+    }
+
+    .apsc-twitter-icon .apsc-inner-block {
+        background: #45B7E9;
+    }
+
+    .apsc-instagram-icon .apsc-inner-block {
+        background: #517fa4;
+    }
+
+    .apsc-pinterest-icon .apsc-inner-block {
+        background: #cb2027;
+    }
+
+    .apsc-skype-icon .apsc-inner-block {
+        background: #0078ca;
+    }
+
+    .apsc-vimeo-icon .apsc-inner-block {
+        background: #56E2D7;
+    }
+
+    .apsc-youtube-icon .apsc-inner-block {
+        background: #bb0000;
+    }
+
+    .apsc-dribble-icon .apsc-inner-block {
+        background: #ea4c89;
+    }
+
+    .apsc-linkedin-icon .apsc-inner-block {
+        background: #007bb6;
+    }
+
+    .apsc-rss-icon .apsc-inner-block {
+        background: #FF9900;
+    }
+}

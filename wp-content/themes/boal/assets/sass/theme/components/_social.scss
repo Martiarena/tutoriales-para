@@ -1,0 +1,107 @@
+//Style share box
+.share-links{
+    text-align: center;
+    @include rtl-padding-left(20px);
+    .count-share {
+        vertical-align: middle;
+        color: #252525;
+        position: relative;
+        i{
+            font-size: 16px;
+            color: $theme-color;
+        }
+        .social-item{
+            i{
+                font-size: 12px;
+                color: #fff;
+                @include rtl-padding-right(0px);
+            }
+        }
+    }
+    .social-icons{
+        margin: 0;
+        @include rtl-text-align-right();
+        display: inline-block;
+    }
+    .social-item{
+        padding: 4px 10px ;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        @include rtl-margin-left(5px);
+        text-align: center;
+        @include transition(0.2s);
+        >a {
+            display: inline-block;
+            color: #FFF;
+            text-align: center;
+            font-size: 12px;
+        }
+        &.facebook{
+            background:#3b5998 ;
+            &:hover{
+                background:darken(#3b5998, 15%);
+            }
+        }
+        &.twitter{
+            background:#00aced ;
+            &:hover{
+                background:darken(#00aced, 15%);
+            }
+        }
+        &.google{
+            background:#dd4b39 ;
+            &:hover{
+                background:darken(#dd4b39, 15%);
+            }
+        }
+        &.linkedin{
+            background:#0177B5 ;
+            &:hover{
+                background:darken(#0177B5, 15%);
+            }
+        }
+        &.pinterest{
+            background:#BD081C ;
+            &:hover{
+                background:darken(#BD081C, 10%);
+            }
+        }
+
+    }
+    .author-social{
+        border-radius: 100%;
+        @include size(24px,24px);
+        text-align: center;
+        line-height: 20px;
+        @include rtl-margin-right(3px);
+        .fa{
+            font-size: 14px;
+            @include rtl-padding-right(10px);
+        }
+    }
+}
+
+//sb_instagram
+.sb_instagram{
+    position: relative;
+}
+.sbi_follow_btn{
+    position: absolute;
+    top:15px;
+    left: 0;
+    right:0;
+    .fa-instagram{
+        display: block;
+        padding-bottom: 10px;
+
+    }
+}
+#sb_instagram #sbi_load .fa, #sb_instagram .sbi_follow_btn .fa{
+    font-size: 24px;
+    color: $theme-color;
+}
+#sb_instagram .sbi_follow_btn a{
+    background: none;
+    color: #757575;
+    font-size: 14px;
+}

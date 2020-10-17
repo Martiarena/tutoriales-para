@@ -1,0 +1,273 @@
+//button-variables-outline($color, $background, $border, $colorhover, $bghover, $borderhover )
+
+.btn-outline{
+  @include button-variables-outline($theme-color, transparent, $theme-color, $theme-color, transparent, $theme-color);
+}
+
+.btn-inverse{
+    @include button-variables-outline($white, $theme-color , $theme-color ,$white, $theme-color ,  $theme-color);
+}
+
+.btn-variant{
+    @include button-variables-outline($white, $theme-color , $theme-color ,$white,darken($theme-color, 10%),  darken($theme-color, 10%));
+    padding: 10px 30px;
+}
+
+.button{
+    @include button-variables-outline(#302f34, #ECEDE7 , #282828 , $theme-color, #ECEDE7 ,  $theme-color);
+    border-width:0;
+}
+
+//Loading
+.load-pagination{
+    display: block;
+    text-align: center;
+    #loadMore,#loadMoreCat{
+        margin: 30px;
+    }
+}
+.button.loading {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-left: 4px solid $theme-color;
+    border-radius: 100%;
+    display: block;
+    height: 100px;
+    margin: auto auto 30px;
+    position: relative;
+    width: 100px;
+    font-size: 0;
+}
+.wrapper-posts {
+    #loadMore,#loadMoreCat{
+        display: block;
+        text-align: center;
+        box-shadow: none;
+        position: relative;
+        padding: 10px 30px;
+    }
+}
+.btn-readMore{
+    display: block;
+}
+.btn-read{
+    background:transparent;
+    border: 1px solid #eaeaf1;
+    display: inline-block;
+    @include rtl-right(20px);
+    padding: 10px 20px 9px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    font-size: 12px;
+    color: $color-title;
+    text-transform: uppercase;
+    &:hover{
+        background: $theme-color;
+        color: $white;
+        border: 1px solid $theme-color;
+    }
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    @include button-variables-outline(white, $theme-color , $theme-color ,white,darken($theme-color, 5%),  darken($theme-color, 5%));
+}
+input, button, select, textarea {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    padding: 7px 10px;
+}
+
+//ADD TO CART ----------------------------------------------------------------------------------------------------------
+.button.single_add_to_cart_button{
+    padding: 14px 80px;
+    border-radius:0;
+    display: inline-block;
+    color: #fff;
+    background-color: $color-title;
+    font-family: $font-family-once;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: none;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        background-color:#000;
+    }
+}
+
+.page-content .vc_btn3.vc_btn3-style-custom{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    letter-spacing: 0.1em;
+    color: $white;
+    cursor: pointer;
+    background-color: $theme-color;
+    border: 1px solid $theme-color;
+    font-family: $font-family-once;
+    font-size: 12px;
+    font-weight: 500;
+    background-image:none;
+    box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        background-color: $theme-color;
+        border: 1px solid $theme-color;
+        box-shadow:none;
+    }
+}
+
+
+.add_to_cart_button,.button.product_type_simple{
+    //    button-variables-outline($color, $background, $border, $colorhover, $bghover, $borderhover )
+    @include button-variables-outline($color-title,transparent, transparent, $theme-color, transparent, transparent);
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: none;
+    .fa-shopping-cart{
+        display: none;
+    }
+    &.loading {
+        opacity: 0.7;
+        position: relative;
+        @include rtl-padding(0,30px,0,0);
+        &:after {
+            font-family: "fontawesome";
+            content: "\f110";
+            vertical-align: top;
+            -webkit-font-smoothing: antialiased;
+            font-size: 14px;
+            position: absolute;
+            @include rtl-right(10px);
+            -webkit-animation: fa-spin 1s infinite steps(8);
+            animation: fa-spin 1s infinite steps(8);
+        }
+    }
+    &.added{
+        display: none;
+    }
+}
+.added_to_cart{
+    @include button-variables-outline($theme-color,transparent, transparent, $theme-color, transparent, transparent);
+    padding: 0;
+    font-weight: 500;
+    box-shadow: none;
+
+}
+
+//wishlist -------------------------------------------------------------------------------------------------------------
+.wishlist-buttom{
+    display: inline-block;
+}
+#yith-wcwl-popup-message{
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 40px;
+}
+.yith-wcwl-add-to-wishlist{
+    margin: 0;
+    position: relative;
+    a{
+        font-size: 14px;
+        font-weight: 500;
+        color: $color-title;
+        &:before{
+            content: "\f08a";
+            margin: auto;
+            font-family: "fontawesome";
+            font-size: 15px;
+            line-height: 34px;
+            text-align: center;
+            display: inline-block;
+            color: #b8b8b8;
+        }
+        &:hover{
+            &:before{
+                content: "\f004";
+                color: $theme-color;
+            }
+        }
+    }
+    .ajax-loading{
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 32px;
+    }
+    .feedback{
+        display: none;
+    }
+}
+.yith-wcwl-wishlistexistsbrowse,.yith-wcwl-wishlistaddedbrowse{
+    a{
+        &:before{
+            content: "\f004";
+            color: $theme-color;
+        }
+    }
+}
+
+.btn-updatecart{
+    display: inline-block;
+    text-align: center;
+    padding: 15px 40px;
+    width: 100%;
+    font-size: 16px;
+    background: #FFF;
+    text-transform: uppercase;
+    border: 1px solid #cecece;
+    color:#787878 ;
+    height: auto;
+    cursor: pointer !important;
+    @include transition(0.4s);
+    &:hover{
+        @include transition(0.4s);
+        color:#1f1b1c ;
+        border: 1px solid #cecece;
+    }
+}
+.btn-checkout{
+    color:$white ;
+    display: inline-block;
+    text-align: center;
+    padding: 22px 40px;
+    width: 100%;
+    font-size: 16px;
+    background: $theme-color;
+    border: 1px solid $theme-color;
+    text-transform: uppercase;
+    font-weight: 400;
+    @include transition(0.4s);
+    &:hover{
+        @include transition(0.4s);
+        border: 1px solid #1f1b1c;
+        background: #1f1b1c;
+        color:$white ;
+    }
+}
+.btn-order{
+    display: inline-block;
+    text-align: center;
+    padding: 15px 40px;
+    width: 100%;
+    font-size: 16px;
+    color: $white !important;
+    height: auto !important;
+    background: $theme-color;
+    border: 1px solid $theme-color;
+    @include transition(0.4s);
+    &:hover{
+        @include transition(0.4s);
+        border: 1px solid #1f1b1c;
+        background: #1f1b1c;
+        color:$white ;
+    }
+}

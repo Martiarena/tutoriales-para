@@ -1,0 +1,66 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="0">vc4_templates</custom-type>
+    <custom-type translate="0">wpcf7_contact_form</custom-type>
+    <custom-type translate="0">vc_grid_item</custom-type>
+    <custom-type translate="0">mc4wp-form</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="ignore">_form</custom-field>
+    <custom-field action="ignore">_mail</custom-field>
+    <custom-field action="ignore">_mail_2</custom-field>
+    <custom-field action="ignore">_messages</custom-field>
+    <custom-field action="ignore">_additional_settings</custom-field>
+    <custom-field action="ignore">_locale</custom-field>
+    <custom-field action="ignore">_vc_post_settings</custom-field>
+    <custom-field action="ignore">_menu_item_type</custom-field>
+    <custom-field action="ignore">_menu_item_menu_item_parent</custom-field>
+    <custom-field action="ignore">_menu_item_object_id</custom-field>
+    <custom-field action="ignore">_menu_item_object</custom-field>
+    <custom-field action="ignore">_menu_item_target</custom-field>
+    <custom-field action="ignore">_menu_item_classes</custom-field>
+    <custom-field action="ignore">_menu_item_xfn</custom-field>
+    <custom-field action="ignore">_menu_item_url</custom-field>
+    <custom-field action="ignore">_mc4wp_settings</custom-field>
+    <custom-field action="ignore">text_subscribed</custom-field>
+    <custom-field action="ignore">text_invalid_email</custom-field>
+    <custom-field action="ignore">text_required_field_missing</custom-field>
+    <custom-field action="ignore">text_already_subscribed</custom-field>
+    <custom-field action="ignore">text_error</custom-field>
+    <custom-field action="ignore">text_unsubscribed</custom-field>
+    <custom-field action="ignore">text_not_subscribed</custom-field>
+    <custom-field action="ignore">text_no_lists_selected</custom-field>
+    <custom-field action="ignore">text_updated</custom-field>
+    <custom-field action="ignore">_edit_last</custom-field>
+    <custom-field action="ignore">_edit_lock</custom-field>
+    <custom-field action="ignore">_format_link_url</custom-field>
+    <custom-field action="ignore">_format_quote_source_url</custom-field>
+    <custom-field action="ignore">_format_quote_source_name</custom-field>
+    <custom-field action="ignore">_format_audio_embed</custom-field>
+    <custom-field action="ignore">_format_video_embed</custom-field>
+    <custom-field action="ignore">slide_template</custom-field>
+    <custom-field action="ignore">_wpb_vc_js_status</custom-field>
+    <custom-field action="ignore">_format_gallery_images</custom-field>
+    <custom-field action="ignore">post_views_count</custom-field>
+    <custom-field action="ignore">nano_hidden_breadcrumb</custom-field>
+    <custom-field action="ignore">na_show_title</custom-field>
+    <custom-field action="ignore">menu_topbar</custom-field>
+    <custom-field action="ignore">page_skins</custom-field>
+    <custom-field action="ignore">layout_header</custom-field>
+    <custom-field action="ignore">header_boxed</custom-field>
+    <custom-field action="ignore">layout_footer</custom-field>
+    <custom-field action="ignore">wide_hidden_breadcrumb</custom-field>
+    <custom-field action="ignore">_featured</custom-field>
+    <custom-field action="ignore">_wpb_shortcodes_custom_css</custom-field>
+    <custom-field action="ignore">_wp_attached_file</custom-field>
+    <custom-field action="ignore">_wp_attachment_metadata</custom-field>
+    <custom-field action="ignore">tran_header</custom-field>
+    <custom-field action="ignore">boal_logo</custom-field>
+    <custom-field action="ignore">_wp_trash_meta_status</custom-field>
+    <custom-field action="ignore">_wp_trash_meta_time</custom-field>
+    <custom-field action="ignore">_thumbnail_id</custom-field>
+    <custom-field action="ignore">azure_logo</custom-field>
+    <custom-field action="ignore">_wp_attachment_context</custom-field>
+    <custom-field action="ignore">_wp_desired_post_slug</custom-field>
+  </custom-fields>
+</wpml-config>

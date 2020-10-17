@@ -1,0 +1,47 @@
+//Fixed some element in the HomePage
+
+.home{
+    .wrap-breadcrumb{
+        display: none;
+    }
+    .page-header{
+        display: none;
+    }
+}
+
+.site-title{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    a{
+        color: $theme-color;
+    }
+}
+.site-description {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.site-content{
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+.wrap-content{
+    margin-top:0px;
+    margin-bottom:60px;
+}
+.wrap-content-inner{
+    padding-top: 30px;
+}
+
+.na-topbar{
+    ul ul{
+        display: none;
+    }
+}
+.nav > li > a:hover, .nav > li > a:focus{
+    background: none;
+}

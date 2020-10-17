@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Nano Core Plugin">
+  <domain name="nano">
+    <project name="Nano Core Plugin" slug="nano">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/nano.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

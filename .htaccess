@@ -1,0 +1,12 @@
+# This file was updated by Duplicator Pro on 2020-10-17 23:02:41.
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /proyectos/tutoriales-para/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /proyectos/tutoriales-para/index.php [L]
+</IfModule>
+# END WordPress

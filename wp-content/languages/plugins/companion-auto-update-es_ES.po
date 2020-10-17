@@ -1,0 +1,645 @@
+# Translation of Plugins - Companion Auto Update - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Companion Auto Update - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-13 06:43:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Companion Auto Update - Stable (latest release)\n"
+
+#: admin/dashboard.php:450
+msgid "Author"
+msgstr "Autor"
+
+#: admin/dashboard.php:449
+msgid "Editor"
+msgstr "Editor"
+
+#: admin/dashboard.php:448
+msgid "Administrator"
+msgstr "Administrador"
+
+#: admin/dashboard.php:446
+msgid "Allow access to:"
+msgstr "Permitir acceso a:"
+
+#: admin/status.php:319
+msgid "Auto updates"
+msgstr "Actualizaciones automáticas"
+
+#: admin/status.php:309
+msgid "A plugin has prevented updates by disabling <code>%s</code>."
+msgstr "Un plugin ha impedido las actualizaciones al desactivar <code>%s</code>."
+
+#: admin/status.php:293
+msgid "Cronjobs"
+msgstr "Tareas programadas"
+
+#: admin/status.php:273
+msgid "Connection with WordPress.org"
+msgstr "Conexión con WordPress.org"
+
+#: cau_functions.php:1275 admin/status.php:312
+msgid "No issues detected"
+msgstr "No se han detectado problemas"
+
+#: cau_functions.php:1271
+msgid "The folder %s was detected as being under version control (%s)"
+msgstr "Se ha detectado que la carpeta %s está bajo control de versiones (%s)"
+
+#: cau_functions.php:1267
+msgid "The folder %s was detected as being under version control (%s), but the %s filter is allowing updates"
+msgstr "Se ha detectado que la carpeta %s está bajo control de versiones (%s), pero el filtro %s está permitiendo las actualizaciones"
+
+#: cau_functions.php:1223
+msgid "Cronjobs are disabled on this site by either you, WordPress, another plugin or your webhost. Companion Auto Update might experience issues when cronjobs are disabled. "
+msgstr "Los trabajos cron están desactivados en este sitio por ti, WordPress, otro plugin o tu alojamiento web. Companion Auto Update podría experimentar problemas cuando los trabajos cron está desactivados."
+
+#: cau_functions.php:1222
+msgid "Cronjobs are disabled"
+msgstr "Los trabajos cron están desactivados"
+
+#: cau_functions.php:1215
+msgid "Cronjobs are enabled on this site."
+msgstr "Los trabajos cron están activados en este sitio."
+
+#: cau_functions.php:1209
+msgid "Cronjobs are enabled"
+msgstr "Los trabajos cron están activados"
+
+#: cau_functions.php:1197 cau_functions.php:1224
+msgid "Error code"
+msgstr "Código de error"
+
+#: cau_functions.php:1196
+msgid "Automatic updating is disabled on this site by either WordPress, another plugin or your webhost."
+msgstr "La actualización automática está desactivada en este sitio por WordPress, otro plugin o tu alojamiento web."
+
+#: cau_functions.php:1188
+msgid "Automatic updating isn't disabled on this site."
+msgstr "La actualización automática no está desactivada en este sitio."
+
+#: cau_functions.php:1185
+msgid "Security"
+msgstr "Seguridad"
+
+#: cau_functions.php:1170
+msgid "Search Engine Visibility "
+msgstr "Visibilidad en los motores de búsqueda"
+
+#: cau_functions.php:1163
+msgid "Search Engines can index your site just fine."
+msgstr "Los motores de búsqueda pueden indexar bien tu sitio. "
+
+#: cau_functions.php:1160 cau_functions.php:1212
+msgid "Performance"
+msgstr "Rendimiento"
+
+#: cau_functions.php:1144
+msgid "This was reported by the Companion Auto Update plugin"
+msgstr "Esto ha sido informado por el plugin Companion Auto Update"
+
+#: cau_functions.php:689
+msgid "Core translations"
+msgstr "Traducciones del núcleo"
+
+#: cau_functions.php:688
+msgid "Theme translations"
+msgstr "Traducciones de temas"
+
+#: cau_functions.php:687
+msgid "Plugin translations"
+msgstr "Traducciones de plugins"
+
+#: admin/log.php:15
+msgid "Translations"
+msgstr "Traducciones"
+
+#: admin/dashboard.php:17
+msgid "We need to add some information to your database"
+msgstr "Necesitamos añadir algo más de información a tu base de datos"
+
+#: admin/status.php:146
+msgid "Error"
+msgstr "Error"
+
+#: admin/status.php:38 admin/status.php:60 admin/status.php:82
+#: admin/status.php:104 admin/status.php:138 admin/status.php:163
+#: admin/status.php:179 admin/status.php:282 admin/status.php:295
+#: admin/status.php:308 admin/status.php:321
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: admin/status.php:31 admin/status.php:53 admin/status.php:75
+#: admin/status.php:97 admin/status.php:132 admin/status.php:157
+#: admin/status.php:174 admin/status.php:286 admin/status.php:299
+#: admin/status.php:331
+msgid "Enabled"
+msgstr "Activado"
+
+#: admin/status.php:11
+msgid "Database information update completed"
+msgstr "Completada la actualización de la información de la base de datos"
+
+#: cau_functions.php:214 cau_functions.php:274 cau_functions.php:325
+#: cau_functions.php:566 cau_functions.php:642 cau_functions.php:789
+msgid "Manual"
+msgstr "Manual"
+
+#: cau_functions.php:212 cau_functions.php:272 cau_functions.php:323
+#: cau_functions.php:564 cau_functions.php:640 cau_functions.php:787
+msgid "Automatic"
+msgstr "Automático"
+
+#: cau_emails.php:81
+msgid "Head over to %1$s and check the ones you want to update."
+msgstr "Dirígete a %1$s y comprueba los que quieres actualizar."
+
+#: cau_emails.php:77
+msgid "Leaving your site outdated is a security risk so please consider manually updating them."
+msgstr "Dejar tu sitio desactualizado es un riesgo de seguridad, por lo que, por favor, plantéate actualizarlo manualmente."
+
+#: cau_emails.php:61
+msgid "The following %1$s have new versions available."
+msgstr "El siguiente %1$s tiene nuevas versiones disponibles."
+
+#: cau_emails.php:55
+msgid "You have pending %1$s updates on your WordPress site at %2$s."
+msgstr "Tienes pendientes %1$s actualizaciones en tu sitio WordPress en %2$s."
+
+#: admin/dashboard.php:476
+msgid "Feature To-Do List"
+msgstr "Lista de características pendientes"
+
+#: admin/status.php:466
+msgid "For when you need our help fixing an issue."
+msgstr "Para cuando necesitas nuestra ayuda para corregir un problema."
+
+#: admin/status.php:466
+msgid "Advanced info"
+msgstr "Información avanzada"
+
+#: admin/dashboard.php:301
+msgid "Intervals"
+msgstr "Intervalos"
+
+#: admin/dashboard.php:276
+msgid "Use plain text"
+msgstr "Usar texto sin formato"
+
+#: admin/dashboard.php:275
+msgid "Use HTML"
+msgstr "Usar HTML"
+
+#: admin/dashboard.php:271
+msgid "Use HTML in emails?"
+msgstr "¿Usar HTML en los correos electrónicos?"
+
+#: admin/pluginlist.php:44
+msgid "Prevent certain %s from updating automatically. %s that you select here will be skipped by Companion Auto Update and will require manual updating."
+msgstr "Evita que ciertos %s se actualicen automáticamente. Los %s que selecciones aquí serán omitidos por Companion Auto Update y necesitarán una actualización manual."
+
+#: companion-auto-update.php:217 admin/dashboard.php:170
+msgid "Update filter"
+msgstr "Actualizar el filtro"
+
+#: cau_emails.php:311
+msgid "Release notes"
+msgstr "Notas de la versión"
+
+#: cau_emails.php:102
+msgid "The following %1$s have been updated:"
+msgstr "El siguiente %1$s ha sido actualizado:"
+
+#: cau_emails.php:110
+msgid "(You'll also receive this email if you manually updated a plugin or theme)"
+msgstr "(También recibirás este correo electrónico si has actualizado un plugin o un tema manualmente)"
+
+#: admin/status.php:6
+msgid "Database update completed"
+msgstr "Actualización de la base de datos completada"
+
+#: admin/dashboard.php:11 admin/dashboard.php:17
+msgid "Run updater now"
+msgstr "Ejecutar el actualizador ahora"
+
+#: admin/dashboard.php:11
+msgid "We need you to update to the latest database version"
+msgstr "Necesitamos que actualices a la última versión de la base de datos"
+
+#: admin/dashboard.php:10 admin/dashboard.php:16
+msgid "Companion Auto Update Database Update"
+msgstr "Actualización de la base de datos de Companion Auto Update"
+
+#: cau_functions.php:847
+msgid "Update method"
+msgstr "Método de actualización"
+
+#: cau_functions.php:1044
+msgid "Once a month"
+msgstr "Una vez al mes"
+
+#: cau_functions.php:1038
+msgid "Twice a month"
+msgstr "Dos veces al mes"
+
+#: cau_functions.php:1032
+msgid "Once Weekly"
+msgstr "Una vez a la semana"
+
+#: admin/status.php:455
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#: cau_functions.php:1171 admin/status.php:283
+msgid "You’ve chosen to disscourage Search Engines from indexing your site. Auto-updating works best on sites with more traffic, consider enabling indexing for your site."
+msgstr "Has elegido disuadir a los motores de búsqueda para que no indexen tu sitio. La actualización automática funciona mejor en los sitios con más tráfico, plantéate la posibilidad de activar la indexación de tu sitio."
+
+#: admin/dashboard.php:483
+msgid "Documentation"
+msgstr "Documentación"
+
+#: admin/dashboard.php:470
+msgid "Support Forums"
+msgstr "Foros de soporte"
+
+#: admin/dashboard.php:467
+msgid "Help"
+msgstr "Ayuda"
+
+#: admin/dashboard.php:171
+msgid "More Actions"
+msgstr "Más acciones"
+
+#: admin/dashboard.php:170
+msgid "Get Started"
+msgstr "Primeros pasos"
+
+#: admin/dashboard.php:168
+msgid "The plugin is all set and ready to go with the recommended settings, but if you'd like you can change them below."
+msgstr "El plugin está listo y preparado para empezar con los ajustes recomendados, pero, si quieres, puedes cambiarlos a continuación."
+
+#: admin/dashboard.php:167
+msgid "You're set and ready to go"
+msgstr "Estás listo y preparado para empezar"
+
+#: admin/dashboard.php:165
+msgid "Welcome to Companion Auto Update"
+msgstr "Bienvenido a Companion Auto Update"
+
+#: admin/status.php:408
+msgid "Possible issue"
+msgstr "Posible problema"
+
+#: cau_functions.php:1157 admin/status.php:280
+msgid "Search Engine Visibility"
+msgstr "Visibilidad en los motores de búsqueda"
+
+#: admin/status.php:354
+msgid "Error fixed"
+msgstr "Fallo corregido"
+
+#: admin/status.php:322
+msgid "Updating is globally disabled."
+msgstr "Las actualizaciones están desactivadas globalmente."
+
+#: cau_functions.php:1172 cau_functions.php:1198 cau_functions.php:1225
+#: admin/status.php:284 admin/status.php:326
+msgid "Fix it"
+msgstr "Corregir"
+
+#: admin/dashboard.php:481
+msgid "Developer?"
+msgstr "¿Desarrollador?"
+
+#: companion-auto-update.php:399
+msgid "Companion Auto Update ran into a critical error. View the status log for more info."
+msgstr "Companion Auto Update se ha encontrado con un error crítico. Mira el registro de estado para más información."
+
+#: admin/dashboard.php:469
+msgid "Frequently Asked Questions"
+msgstr "Preguntas frecuentes"
+
+#: cau_functions.php:1199 cau_functions.php:1226 admin/status.php:297
+#: admin/status.php:310 admin/status.php:327
+msgid "Contact for support"
+msgstr "Contacta con el soporte"
+
+#: admin/status.php:409 admin/status.php:421
+msgid "How to fix"
+msgstr "Cómo corregirlo"
+
+#: admin/status.php:401
+msgid "You're using one or more plugins that <i>might</i> cause issues."
+msgstr "Estás usando uno o más plugins que <i>podrían</i> dar problemas."
+
+#: admin/status.php:400
+msgid "Possible plugin issues"
+msgstr "Posibles problemas de plugins"
+
+#: cau_emails.php:95
+msgid ""
+"One or more %1$s on your WordPress site at %2$s have been updated by Companion Auto Update. No further action is needed on your part. \n"
+"For more info on what is new visit your dashboard and check the changelog."
+msgstr ""
+"Uno o más %1$s en tu sitio WordPress en %2$s han sido actualizados por Companion Auto Update. No es necesaria ninguna otra acción por tu parte. \n"
+"Para más información sobre las novedades, visita tu escritorio y comprueba el registro de cambios."
+
+#: cau_emails.php:363
+msgid "One or more themes have been updated."
+msgstr "Se han actualizado uno o más temas."
+
+#: admin/dashboard.php:493
+msgid "Check out our other plugins"
+msgstr "Echa un vistazo a nuestros otros plugins"
+
+#: admin/status.php:437
+msgid "Systeminfo"
+msgstr "Información del sistema"
+
+#: admin/dashboard.php:441
+msgid "Advanced settings"
+msgstr "Ajustes avanzados"
+
+#: admin/status.php:219
+msgid "Core (Minor)"
+msgstr "Núcleo (Menor)"
+
+#: admin/status.php:225
+msgid "Core (Major)"
+msgstr "Núcleo (Mayor)"
+
+#: admin/status.php:213 admin/log.php:14 admin/pluginlist.php:14
+#: admin/pluginlist.php:33
+msgid "Themes"
+msgstr "Temas"
+
+#: admin/status.php:207 admin/log.php:13 admin/pluginlist.php:19
+#: admin/pluginlist.php:24 admin/pluginlist.php:32
+msgid "Plugins"
+msgstr "Plugins"
+
+#: admin/status.php:201 admin/status.php:210 admin/status.php:216
+#: admin/status.php:222 admin/status.php:228 admin/status.php:241
+#: admin/status.php:250 admin/status.php:256
+msgid "Next"
+msgstr "Siguiente"
+
+#: admin/status.php:200 admin/status.php:240
+msgid "Interval"
+msgstr "Intervalo"
+
+#: admin/dashboard.php:285
+msgid "Core notifications are handled by WordPress and not by this plugin. You can only disable them, changing your email address in the settings above will not affect these notifications."
+msgstr "Los avisos del núcleo son gestionados por WordPress y no por este plugin. Solo puedes desactivarlos, cambiar tu dirección de correo electrónico en los ajustes anteriores no afectará a estos avisos."
+
+#: admin/dashboard.php:501
+msgid "Rate us (5 stars?)"
+msgstr "Valóranos (¿5 estrellas?)"
+
+#: admin/dashboard.php:499
+msgid "Companion Auto Update is free to use. It has required a great deal of time and effort to develop and you can help support this development by making a small donation.<br />You get useful software and we get to carry on making it better."
+msgstr "El uso de Companion Auto Update es gratuito. Ha necesitado una gran cantidad de tiempo y esfuerzo para su desarrollo y tú puedes ayudar a apoyar este desarrollo haciendo una pequeña donación.<br />Tú obtienes un software útil y nosotros podemos seguir haciéndolo mejor."
+
+#: admin/dashboard.php:498
+msgid "Like our plugin?"
+msgstr "¿Te gusta nuestro plugin?"
+
+#: admin/dashboard.php:473
+msgid "Want to contribute?"
+msgstr "¿Quieres colaborar?"
+
+#: admin/dashboard.php:492
+msgid "Contact us"
+msgstr "Contacta con nosotros"
+
+#: admin/dashboard.php:491
+msgid "Feel free to reach out to us if you have any questions or feedback."
+msgstr "No dudes en contactar con nosotros si tienes cualquier pregunta o coemntario."
+
+#: admin/dashboard.php:490
+msgid "Support"
+msgstr "Soporte"
+
+#: companion-auto-update.php:269 admin/log.php:12
+msgid "View full changelog"
+msgstr "Ver el registro de cambios completo"
+
+#: companion-auto-update.php:266
+msgid "Below are the last 7 updates ran on this site. Includes plugins and themes, both automatically updated and manually updated."
+msgstr "A continuación están las 7 últimas actualizaciones ejecutadas en este sitio. Incluyen los plugins y temas actualizados tanto automática como manualmente."
+
+#: companion-auto-update.php:218 companion-auto-update.php:259 admin/log.php:1
+msgid "Update log"
+msgstr "Registro de actualizaciones"
+
+#: cau_functions.php:879
+msgid "Theme"
+msgstr "Tema"
+
+#: cau_functions.php:846
+msgid "Last updated on"
+msgstr "Última actualización el"
+
+#: cau_functions.php:845
+msgid "Type"
+msgstr "Tipo"
+
+#: cau_functions.php:843 admin/status.php:407 admin/pluginlist.php:100
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/dashboard.php:331 admin/dashboard.php:365 admin/dashboard.php:398
+msgid "At what time should the updater run? Only works when set to <u>daily</u>."
+msgstr "¿A qué hora debe ejecutarse el actualizador? Solo funciona cuando está establecido <u>diariamente</u>."
+
+#: admin/dashboard.php:331 admin/dashboard.php:365 admin/dashboard.php:398
+#: admin/dashboard.php:431
+msgid "Time notation: 24H"
+msgstr "Notación horaria: 24H"
+
+#: companion-auto-update.php:219 admin/status.php:186 admin/status.php:199
+#: admin/status.php:239 admin/status.php:266 admin/pluginlist.php:101
+msgid "Status"
+msgstr "Estado"
+
+#: companion-auto-update.php:311 admin/dashboard.php:504
+msgid "Donate to help development"
+msgstr "Haz una donación para ayudar al desarrollo"
+
+#: companion-auto-update.php:310 admin/dashboard.php:171
+#: admin/dashboard.php:477
+msgid "Help us translate"
+msgstr "Ayúdanos a traducir"
+
+#: admin/dashboard.php:171 admin/dashboard.php:475
+msgid "Give feedback"
+msgstr "Da tu opinión"
+
+#: admin/dashboard.php:291
+msgid "By default WordPress sends an email when a core update has occurred. Uncheck this box to disable these emails."
+msgstr "Por defecto, WordPress envía un correo electrónico cuando se ha producido una actualización del núcleo. Desmarca esta casilla para desactivar estos correos electrónicos."
+
+#: admin/dashboard.php:372
+msgid "Core update interval"
+msgstr "Intervalo de actualización del núcleo"
+
+#: admin/dashboard.php:339
+msgid "Theme update interval"
+msgstr "Intervalo de actualización de los temas"
+
+#: admin/dashboard.php:305
+msgid "Plugin update interval"
+msgstr "Intervalo de actualización de los plugins"
+
+#: cau_functions.php:1182
+msgid "Auto updating is enabled"
+msgstr "La actualización automática está activada"
+
+#: admin/pluginlist.php:102
+msgid "Description"
+msgstr "Descripción"
+
+#: cau_functions.php:877
+msgid "Plugin"
+msgstr "Plugin"
+
+#: admin/pluginlist.php:93 admin/pluginlist.php:183
+msgid "Reset list"
+msgstr "Restablecer la lista"
+
+#: admin/pluginlist.php:83
+msgid "The no-update-list has been reset, all %s will be auto-updated from now on"
+msgstr "Se ha restablecido la lista de no actualizar, desde ahora, todos los %s serán actualizados automáticamente"
+
+#: admin/pluginlist.php:73
+msgid "%1$s %2$s have been added to the no-update-list"
+msgstr "%1$s %2$s han sido añadidos a la lista de no actualización"
+
+#: admin/pluginlist.php:73 admin/pluginlist.php:83
+msgid "Succes"
+msgstr "Correcto"
+
+#: cau_functions.php:1195
+msgid "Auto updating is disabled"
+msgstr "La actualización automática está desactivada"
+
+#: admin/status.php:253 admin/dashboard.php:283
+msgid "Core notifications"
+msgstr "Avisos del núcleo"
+
+#: admin/dashboard.php:220
+msgid "Auto update translation files?"
+msgstr "¿Actualizar los archivos de traducción automáticamente?"
+
+#: companion-auto-update.php:216
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: admin/dashboard.php:255
+msgid "Send me emails when something has been updated."
+msgstr "Envíame correos electrónicos cuando algo se haya actualizado."
+
+#: admin/dashboard.php:251
+msgid "Successful update"
+msgstr "Actualización correcta"
+
+#: admin/dashboard.php:242
+msgid "Update available"
+msgstr "Actualización disponible"
+
+#: admin/status.php:238 admin/status.php:247 admin/dashboard.php:233
+#: admin/dashboard.php:405
+msgid "Email Notifications"
+msgstr "Avisos por correo electrónico"
+
+#: cau_emails.php:345
+msgid "One or more plugins have been updated."
+msgstr "Han sido actualizados uno o más plugins."
+
+#: cau_functions.php:844
+msgid "To version"
+msgstr "A la versión"
+
+#: cau_emails.php:181 cau_emails.php:346
+msgid "plugins"
+msgstr "plugins"
+
+#: cau_emails.php:180
+msgid "plugin"
+msgstr "plugin"
+
+#: cau_emails.php:179
+msgid "Plugin update available."
+msgstr "Actualización de plugin disponible."
+
+#: cau_emails.php:139 cau_emails.php:364
+msgid "themes"
+msgstr "temas"
+
+#: cau_emails.php:138
+msgid "theme"
+msgstr "tema"
+
+#: cau_emails.php:137
+msgid "Theme update available."
+msgstr "Actualización de tema disponible."
+
+#: admin/dashboard.php:5
+msgid "Companion Auto Update was not able to set the event for sending you emails, please re-activate the plugin in order to set the event"
+msgstr "Companion Auto Update no ha podido establecer el evento para enviarte correos electrónicos, por favor, activa de nuevo el plugin para establecer el evento"
+
+#: admin/dashboard.php:267
+msgid "Seperate email addresses using commas."
+msgstr "Separa las direcciones de correo electrónico mediante comas."
+
+#: admin/dashboard.php:263
+msgid "To"
+msgstr "Para"
+
+#: admin/dashboard.php:260
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: admin/dashboard.php:246
+msgid "Send me emails when an update is available."
+msgstr "Envíame correos electrónicos cuando haya una actualización disponible."
+
+#: admin/dashboard.php:216
+msgid "Auto update major core updates?"
+msgstr "¿Actualizar automáticamente las actualizaciones mayores del núcleo?"
+
+#: admin/dashboard.php:212
+msgid "Auto update minor core updates?"
+msgstr "¿Actualizar automáticamente las actualizaciones menores del núcleo?"
+
+#: admin/dashboard.php:208
+msgid "Auto update themes?"
+msgstr "¿Actualizar los temas automáticamente?"
+
+#: admin/dashboard.php:204
+msgid "Auto update plugins?"
+msgstr "¿Actualizar los plugins automáticamente?"
+
+#: companion-auto-update.php:271 companion-auto-update.php:309
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/dashboard.php:155
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: companion-auto-update.php:196 admin/status.php:198 admin/pluginlist.php:164
+#: admin/dashboard.php:193
+msgid "Auto Updater"
+msgstr "Actualizador automático"
+
+#. Plugin Name of the plugin
+#: companion-auto-update.php:205 cau_functions.php:1148 cau_functions.php:1149
+#: cau_functions.php:1150
+msgid "Companion Auto Update"
+msgstr "Companion Auto Update"

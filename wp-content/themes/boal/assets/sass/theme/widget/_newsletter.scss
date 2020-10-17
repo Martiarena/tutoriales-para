@@ -1,0 +1,79 @@
+// Style Newsletters
+
+.newsletters{
+    color: #757575;
+    //background: #ECECEC;
+    .form-newsletter{
+        //background: #ECECEC;
+    }
+    .des-newsletter{
+        line-height: 24px;
+    }
+    .group-input-newsletter{
+        display:block;
+        padding: 10px 0px 0px;
+    }
+    input,.form-control{
+        height: 40px;
+        font-size: 14px;
+    }
+    #mc4wp{
+        border: 1px solid #ecede7;
+        background: #fff none repeat scroll 0 0;
+        height: 40px;
+        min-width: 320px;
+        width: 100%;
+        border-radius:0px;
+        display: block;
+        padding:7px 15px;
+        &.form-control::-moz-placeholder {
+            color: #999999;
+        }
+    }
+    .input-group-btn{
+
+        display: block;
+        width: 100%;
+        white-space: normal;
+    }
+    .form-control::-moz-placeholder{
+        font-size: 13px;
+    }
+    .btn-newsletter{
+        margin-top: 10px;
+        border: 1px solid #ECEDE7;
+        background: #ECEDE7;
+        border-radius: 0;
+        color:#302f34;
+        height: 40px;
+        width: 100%;
+        letter-spacing: 1px;
+        font-size: 14px;
+        text-transform:uppercase;
+        font-weight: 500;
+        &:hover{
+            background: $theme-color;
+            color:#fff;
+        }
+    }
+    .input-group{
+        display: block;
+    }
+}
+.mc4wp-response {
+    bottom: -10px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.newsletters .input-newsletter{
+    max-width: 500px;
+}
+
+.widget_mc4wp_form_widget{
+    > form{
+        position: relative;
+    }
+}

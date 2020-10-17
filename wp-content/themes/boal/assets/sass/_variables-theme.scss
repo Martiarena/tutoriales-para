@@ -1,0 +1,100 @@
+$image-url                : '../images/' !default;
+$theme-bg:              #fff ;
+$theme-color:           #2FC2E3;
+
+$color-title:           #2f2f33;
+$color-meta:            #8e8e95;
+$font-color:            #63636a;
+$color-content:         #8e8e95;
+
+$border-color-base: 1px solid #f3f3f3;
+
+$secondary:         #F3F3F3;    // Secondary buttons
+$secondarytext:     desaturate(darken($secondary, 60%), 21%);
+
+$white:	#ffffff;
+$black: $color-title;
+
+$font-family-once	    : "Poppins" !default;
+$font-family-two  	    : "Poppins" !default;
+$font-family-three      : $font-family-once;
+
+$font-size:             13px !default;
+
+//===============================topbar============================
+
+$topbar-bg              :#F5F5F5;
+$topbar-color           :#28292e;
+$topbar-border-color    :1px solid #232323;
+$topbar-border-bottom   :0px solid transparent;
+
+//===============================Menu============================
+
+$menu-bg                 :white;
+$menu-bg-hover           :transparent;
+$menu-color              :$color-title;
+$menu-color-hover        :$theme-color ;
+
+$menu-border             :1px solid #ECEDE7;
+
+$menu-padding            :0;
+$menu-rtl                :-15px;
+
+$icon-bar                 :#333;
+$icon-bar-hover           :$theme-color;
+
+//===============================Search============================
+$search-menu              :lighten($menu-bg, 12%);
+$search-color             :#757575;
+
+//===============================Buttom============================
+
+$btn-primary-bg:         $theme-color !default; // #337ab7
+$btn-success-bg:         #b7cc16 !default;
+$btn-info-bg:            #4BC5C6 !default;
+$btn-warning-bg:         #DF8B1B !default;
+$btn-danger-bg:          #E3503C !default;
+
+//btn
+$btn-cart-color:            $white;
+$btn-cart-bg:               #1f1b1c;
+$btn-cart-border:           #1f1b1c;
+$btn-cart-colorhover:       $white;
+$btn-cart-bghover:          $theme-color;
+$btn-cart-borderhover:      $theme-color;
+
+$btn-outline-color:        #8c8c8c;
+$btn-outline-bg:           transparent;
+$btn-outline-border:       transparent;
+$btn-outline-colorhover:   $theme-color;
+$btn-outline-bghover:      transparent;
+$btn-outline-borderhover:  transparent;
+
+$btn-inverse-color:        #8c8c8c;
+$btn-inverse-bg:           transparent;
+$btn-inverse-border:       transparent;
+$btn-inverse-colorhover:   $theme-color;
+$btn-inverse-bghover:      transparent;
+$btn-inverse-borderhover:  transparent;
+
+//===============================Product============================
+
+$sale                       :#c69f73 !default;
+$out-of-stock               :#282828 !default;
+
+//===============================Footer============================
+$footer-top             :#F5F5F5;
+$footer-center          :#fff;
+$footer-bg              :#302F34;
+$footer-bg-bottom       :#242328;
+$footer-color           :#a2a2a2;
+$footer-title-color     :#ededed;
+$footer-border-color    :1px solid #424242;
+$footer-border-top      :1px solid #555555;
+$footer-border-nav      :1px solid #424242;
+
+$coppy-right-color:          #ffffff;
+$coppy-right-color-link:     $theme-color;
+
+//===============================New Letter============================
+$new-letter-color        :#333333;

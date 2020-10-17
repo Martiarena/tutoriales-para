@@ -1,0 +1,110 @@
+//style widget Introduce
+.widget-introduce{
+    padding:65px 65px 0px;
+    vertical-align: middle;
+    .introduce-image{
+        width: 350px;
+        height: 450px;
+        display: table-cell;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        top: -99px;
+        position: relative;
+        box-shadow: 0 10px 29px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+
+    }
+    .introduce-text{
+        padding-left: 60px;
+        border-radius: 3px;
+        display: table-cell;
+        vertical-align:top;
+        max-width: 470px;
+        h3:after {
+            content: '';
+            position: absolute;
+            width: 45px;
+            border-top:1px solid #282828;
+            bottom: -9px;
+            left: 4px;
+        }
+    }
+    .row-nopadding{
+        display: table;
+    }
+    .widget-content{
+        padding: 0 50px;
+        margin: 30px 0;
+        position: relative;
+    }
+    .sub-title{
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        position: absolute;
+        @include rotate(-90deg);
+        -webkit-transform-origin: left top;
+        transform-origin: left top;
+        left: 43px;
+        bottom: 90px;
+    }
+    .widgettitle{
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+        line-height: 48px;
+        margin-bottom: 46px;
+        max-width: 450px;
+        letter-spacing: 3px;
+    }
+    .des-services{
+        padding: 10px 0;
+        line-height: 24px;
+    }
+    .initialize{
+        padding: 0;
+        font-size: 12px;
+        display: inline-block;
+        float: left;
+    }
+}
+.social-about {
+    display: inline-block;
+    float: right;
+    margin-top: -4px;
+    .socialfa {
+        background: #3b5998;
+    }
+    .socialgo {
+        background: #ea4335;
+    }
+    .socialin{
+        background: #f77737;
+    }
+    .socialtw {
+        background: #1da1f2;
+    }
+    .socialpi {
+        background: #bd081c;
+    }
+    .socialsk {
+        background: #00aff0;
+    }
+    a {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        display: block;
+        border-radius: 100%;
+        text-align: center;
+    }
+    i {
+        color: #fff;
+        font-size: 12px;
+    }
+    li {
+        display: inline-block;
+        padding: 0 6px;
+    }
+}
